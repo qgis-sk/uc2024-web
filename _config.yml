@@ -1,0 +1,226 @@
+# Plugins
+plugins:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/bin/', 'README.md', 'INSTALL.md', 'LICENSE.txt', 'CNAME', 'vendor']
+include: ['_pages']
+
+# Site Settings
+title: "QGIS User Conference 2024"
+# email: "test@example.com"
+description: "AAAAAA"  # TODO
+baseurl: ""
+url: "https://uc2024.qgis.sk"
+permalink: "/blog/:title"
+
+# TODO: Organizer Info
+# organizerName: "FLOSSK"
+# organizerAlternateName: "Free Libre Open Source Software Kosova"
+# organizerDescription: ""
+# organizerEmail: "info@flossk.org"
+# organizerLogo: "/img/organizers/flossk-logo.svg"
+# organizerLink: "https://flossk.org/"
+
+# Head
+# metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
+# twitterAccount: "@DevFest"
+# socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+# socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+# socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Documents
+# c4pUrl: "https://bit.ly/dfua-c4p"
+
+# Navigation
+navigationLinks:
+ -
+  permalink: "/"
+  text: "User Conference 2024"
+
+#   links:
+#     - {link: "/about", text: "About us"}
+#     - {link: "/about/team", text: "Committees"}
+#     - {link: "/about/branding", text: "Our brand"}
+#     - {link: "/about/faq", text: "FAQ"}
+#     - {link: "/code-of-conduct", text: "Code of conduct"}
+#  -
+#   permalink: "/register"
+#   text: "Register"
+#   links:
+#     - {link: "/register/travel-grant/", text: "Travel grant"}
+#     - {link: "/register/studentship-grant/", text: "Studentship grant"}
+#     - {link: "/register/visa-info/", text: "Visa info"}
+#     - {link: "/register/volunteers/", text: "Volunteers"}
+#  -
+#   permalink: "/call-for-papers"
+#   text: "Call for papers"
+#   links:
+#     - {link: "/call-for-papers/general-sessions/", text: "General sessions"}
+#     - {link: "/call-for-papers/workshops/", text: "Workshops"}
+#     - {link: "/call-for-papers/academic-track/", text: "Academic Track"}
+#  -
+#   permalink: "/schedule"
+#   text: "Schedule"
+#   links:
+#     - {link: "/agenda/general_track", text: "General and Academic track schedule"}
+#     - {link: "/agenda/workshop_schedule", text: "Workshop schedule"}
+#     - {link: "/presentation_files/", text: "Presentation files"}
+#     - {link: "/keynotes", text: "Keynotes"}
+#     - {link: "/b2b_meeting/", text: "B2B event"}
+#     - {link: "/geochicas_and_spacesyntaks/", text: "Geochicas and SpaceSyntaKs"}
+#     - {link: "/social_events", text: "Social events"}
+#     - {link: "/community_sprint", text: "Community Sprint"}
+#     - {link: "/side_events", text: "Side Events"}
+#  -
+#   permalink: "/sponsors"
+#   text: "Sponsors"
+#  -
+#   permalink: "/attending/guidelines"
+#   text: "Attending"
+#   links:
+#     - {link: "/attending/guidelines", text: "Attendee guidelines"}
+#     - {link: "/attending/accomodation", text: "Accommodation"}
+#     - {link: "/attending/how-ks/", text: "How to get to Kosovo"}
+#     - {link: "/tourism", text: "Tourism"}
+#     - {link: "/guided-tours", text: "Guided Tours"}
+#  -
+#   permalink: "/blog/"
+#   text: "News"
+# #  - {permalink: "/speakers/", text: "Speakers"}
+# #  - {permalink: "/team/", text: "Team"}
+# #  - {permalink: "/logistics/", text: "Logistics"}
+# #  - {permalink: "/hackathon/", text: "Hackathon"}
+# bottomNavigationLinks:
+# #  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+# rightNavigationButtons:
+# #  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+
+# Hero Block
+heroTitle: "QGIS User Conference <typeout> 2024"
+eventDate: "9-10 September 2024"
+# typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
+# typeoutFallback: "Season"
+heroButtons:
+#  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+#  - {permalink: "/register/", text: "Buy tickets"}
+
+# Statistic Block
+# statisticBlockImage: "statistic.jpg"
+# statisticBlock:
+#  - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
+#  - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
+#  - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
+#  - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+
+# Rockstar Speakers Block
+rockstarSpeakersCount: 4
+
+# Location Block
+locationBlockTitle: "Location"
+eventLocationName: "Innovation and Training Park (ITP)"
+eventLocationLink: "https://itp-prizren.com/"
+eventStreetAddress: "Ukë Bytyçi"
+eventAddressLocality: "Prizren"
+eventAddressLocalityRegion: ""
+eventPostalCode: "20000"
+eventAddressCountry: "Kosovo"
+eventStartTime: "2023-06-26T10:00"
+eventDoorTime: "09:00"
+eventEndTime: "2023-07-01T20:00"
+eventPlaceCoordinates: "42.22097, 20.75224"
+mapCenterCoordinates: "42.22097, 20.75224"
+# mapMobileCenterCoordinates: "49.841620, 24.029411"
+
+# Venue Block
+venueBigImage: "stu-svf-01.jpg"
+venueSmallImage1: "svf-aula.png"
+venueSmallImage2: "svf-bat.png"
+venueSmallImage3: "Bratislava-Panorama2.jpg"
+venueTitle: "Faculty of Civil Engineering STU"
+venueText: The largest Slovak educational and research center in civil engineering and geodesy.
+
+
+# Tweets Feed Block
+# tweetsFeedImage: "twitter-feed.jpg"
+# tweetsFeedTitle: "What's Up?"
+# twitterHashTag: "devfest"
+# twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+
+# Subscribe Block
+# subscribeImage: "subscribe.jpg"
+# subscribeTitle: "Subscribe for updates"
+# subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
+# subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+
+# Footer
+socialLinks:
+ - {permalink: "/feed.xml", icon: "rss"}
+footerBlocks:
+ -
+   title: "Links"
+   links:
+    - {link: "https://www.qgis.org/", text: "QGIS project"}
+ -
+  title: "Contact us"
+  links:
+    - {link: "mailto:uc2024@qgis.sk", text: "uc2024@qgis.sk"}
+    #- {link: "https://twitter.com/foss4g", text: "Twitter"}
+    #- {link: "https://www.youtube.com/c/FOSS4G", text: "YouTube"}
+
+
+# Blog
+# blogCommentsEnabled: true
+# discusShortName: "devfestua"
+collections:
+  sideevents:
+    output: true
+  tours:
+    output: true
+
+# Speakers List Block
+showSessions: true
+
+
+# Hackathon
+# hackathonTitle: "Hackathon"
+# enableHackathon: true
+
+# Hackathon About Block
+# aboutHackathonTitle: "Meet our themes"
+# hackathonRows:
+#  - {title: "Android Wear", image: "hackathon-0.png", details: "The front doors will be locked because this is after hours, please park behind the building and come to the door nearest the parking lot.<br><br>Our last meeting showed that there was a lot of interest in Android Wear so we decided to put on an Android Wear Hackathon to see what you could come up with! We realize that this is pretty short notice so we hope you can help us spread the word! There will be pizza, prizes and a great group of geeks to spend the evening coding with! Even if you don't have an app idea come on in and lend a hand to someone else or maybe find inspiration once you're here!"}
+#  - {title: "Google Glass", image: "hackathon-1.png", details: "We love wearable computing especially Google Glass for which we want to gather the break up community in order to boost innovation.<br><br>Coding an app on Google Glass needs its Rockstar Dev : the team needs a fast learner with solid skills on Android. He knows his way around Android SDK, already checked the Glass Developement Kit (GDK) quick start guide allowing him to jump start developing an app for Glass.The Designer has the hard task to build the visual identity from the ground up, he has strong UX knowledge and a deep understanding of the new rules set by the Glass. His design skills give him the credibility to decide the most effective UI and the most compelling Glass experience."}
+#  - {title: "Polymer", image: "hackathon-2.png", details: "Polymer is a library that introduces web components. Web components are small elements on a page that can be extended and incorporated in web applications. The result is an increase in productivity.<br><br>We used Polymer mainly to explore the concept of web components. The transition of Google to material design was also a factor.While the library was never touched by the team, it still was painless to wireframe the application. Later on we incorporated some Polymer components in the design. We didn’t use the full potential of Polymer because of the limited time."}
+
+# Hackathon Judges Block
+# judgesImage: "judges.jpg"
+# judgesTitle: "Judges"
+
+# Hackathon Prizes Block
+# prizesTitle: "Prizes"
+# prizes:
+#  - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
+#  - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
+#  - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
+
+# Hackathon Location Block
+# hackathonLocationBlockTitle: "Location"
+# hackathonLocationName: "Communa"
+# hackathonLocationLink: "http://communa.net.ua/"
+# hackathonStreetAddress: "1 Halytska St"
+# hackathonAddressLocality: "Lviv"
+# hackathonAddressLocalityRegion: "Lvivska"
+# hackathonPostalCode: "79000"
+# hackathonAddressCountry: "Ukraine"
+# hackathonTimeTitle: "Hack through"
+# hackathonStartTime: "2014-10-24T10:00"
+# hackathonDoorTime: "09:00"
+# hackathonEndTime: "2014-10-25T00:00"
+# viewOnMap: "View on Google Maps"
+# hackathonPlaceCoordinates: "49.840999, 24.031144"
+# hackathonMapCenterCoordinates: "49.840696, 24.028754"
+# hackathonMapMobileCenterCoordinates: "49.841639, 24.031182"

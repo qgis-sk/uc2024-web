@@ -1,0 +1,23 @@
+<!-- Begin Partners Section -->
+<section id="partners" class="partners">
+    <div class="container">
+        {% for partner in site.data.partners %}
+        <h3>{{ partner.group }}</h3>
+        <ul class="list-inline">
+            {% for element in partner.elements %}
+            <li>
+                <a href="{{ element.link }}" target="_blank">
+                    <img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}" height="{{ partner.height }}">
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+
+        <h3>Sponsors</h3>
+        <div class="">
+            We are looking for sponsors - please get in touch if you are interested in sponsoring the event!
+        </div>
+    </div>
+</section>
+<!-- End Partners Section -->

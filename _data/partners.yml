@@ -1,0 +1,16 @@
+- group: "Organizers"
+  height: 80
+  elements:
+    - {name: "QGIS.sk", description: "Slovak QGIS User Group", link: "https://qgis.sk/", imageUrl: "qgis-sk-logo.svg"}
+    - {name: "QGIS.org", description: "QGIS.ORG Association", link: "https://qgis.org/", imageUrl: "qgis-logo.svg"}
+
+# - group: "Gold Sponsors"
+#   height: 70
+#   elements:
+#     - {name: "Kontur", description: "", link: "/sponsors/sponsor_kontur", imageUrl: "Kontur_logo_main.svg"}
+
+# - group: "Bronze Sponsors"
+#   height: 60
+#   elements:
+#     - {name: "ESA - European Space Agency", description: "", link: "/sponsors/sponsor_esa", imageUrl: "esa-logo.svg"}
+#     - {name: "Mergin Maps", description: "", link: "/sponsors/sponsor_merginmaps", imageUrl: "merginmaps-logo.svg"}
