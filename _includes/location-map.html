@@ -1,31 +1,31 @@
 <!-- Begin Location Section -->
+
 <section id="location-map" class="location-map">
-    <!-- <div id="canvas-map" class="canvas-map"></div> -->
-    <iframe id="canvas-map" class="canvas-map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=20.741822719573978%2C42.21605138848048%2C20.762851238250736%2C42.22599893652783&amp;layer=mapnik&amp;marker={{ site.eventPlaceCoordinates | replace:' ','' }}"></iframe>
     <div class="content-wrapper">
-        <div class="col-lg-3 col-md-4 col-sm-6 col-md-offset-1 animated hiding location-description text-left" data-animation="fadeInLeft" data-delay="0">
-            <div class="row">
-                <div class="pull-left">
-                    <h3>{{ site.locationBlockTitle }}</h3>
-                    <ul>
-                        {% if site.eventLocationName %}<li>{{ site.eventLocationName }}</li>{% endif %}
-                        <li>{{ site.eventStreetAddress }}, {{ site.eventAddressLocality }}, {{ site.eventAddressCountry }}</li>
-                        <!-- <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li> -->
-                        <!-- <li>
-                            {% assign startTime = site.eventStartTime | split: "T" %}
-                            <time>{{ startTime[1] }}</time> -
-                            {% assign endTime = site.eventEndTime | split: "T" %}
-                            <time>{{ endTime[1] }}</time>
-                        </li> -->
-                    </ul>
-                </div>
-                <a href="https://www.openstreetmap.org/directions?from=&to={{ site.eventPlaceCoordinates | replace:' ','' }}" class="pull-right">
-                    <svg class="icon icon-direction" viewBox="0 0 32 32">
-                        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-direction"></use>
-                    </svg>
-                </a>
-            </div>
+      <div class="">
+        <div id="map" class="canvas-map"></div>
+
+        <div class="row" >
+          <div class="col-sm-push-1 col-xs-push-7 animated hiding location-description text-left" data-animation="fadeInLeft" data-delay="0">
+            <h4>Faculty of Civil Engineering STU</h4> <ul> <li>Radlinskeho 11</li> <li>Bratislava</li> <li>Slovakia</li> </ul> <a href="https://www.openstreetmap.org/directions?from=&to=48.152044,17.115374" target="_blank"> Directions <svg class="icon-direction" viewBox="0 0 32 32"> <use xlink:href="/img/sprites/sprites.svg#icon-direction"></use> </svg> </a>
+          </div>
         </div>
+      </div>
     </div>
-</section>
+  </section>
+
+  <script>
+
+
+
+
+const map = L.map('map').setView([48.152044, 17.115374], 6);
+L.marker([48.152044, 17.115374]).addTo(map).bindPopup('<div class="location-map-popup"> <div class="logo logo-dark"></div> <p>Faculty of Civil Engineering STU</p> <ul> <li>Radlinskeho 11</li> <li>Bratislava</li> <li>Slovakia</li> </ul> <a href="https://www.openstreetmap.org/directions?from=&to=48.152044,17.115374" target="_blank"> Directions <svg class="icon-direction" viewBox="0 0 32 32"> <use xlink:href="/img/sprites/sprites.svg#icon-direction"></use> </svg> </a> </div> ');
+map.scrollWheelZoom.disable();
+
+const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '&copy; ' + '<a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
+
+  </script>
+
+
 <!-- End Location Section -->
