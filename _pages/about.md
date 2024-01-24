@@ -4,16 +4,48 @@ title: About
 permalink: /about/
 isStaticPost: true
 image: about.jpg
-links:
-  - {permalink: "/about/team/", text: "Committees"}
-  - {permalink: "/about/branding/", text: "Branding"}
-  - {permalink: "/about/faq/", text: "FAQ"}
-  - {permalink: "/code-of-conduct/", text: "Code of Conduct"}
+# links:
+#   - {permalink: "/about/team/", text: "Committees"}
+#   - {permalink: "/about/branding/", text: "Branding"}
+#   - {permalink: "/about/faq/", text: "FAQ"}
+#   - {permalink: "/code-of-conduct/", text: "Code of Conduct"}
 ---
 
-#### FOSS4G means Free and Open Source Software for Geospatial
+### QGIS User Conference 2024
 
-### The conference
+The conference includes a variety of presentations, workshops, and discussions on a wide range of QGIS topics.
+Presentations cover topics such as:
+
+- Interesting use cases of QGIS
+- Advanced workflows with QGIS
+- Deep dives into new QGIS features
+- QGIS ecosystem (third party plugins, server solutions, mobile apps)
+- Using QGIS for specific applications
+- Integration of QGIS with other geospatial products
+- Future plans for QGIS project
+
+Workshops provide hands-on experience with specific QGIS tools and techniques - both for beginners and advanced users.
+
+The program for this year has not yet been set, but you can find some examples of what to expect at the <a href="https://uc2023.qgis.nl/">QGIS User Conference 2023 website</a>.
+
+### Contributor Meeting
+
+Right after the conference, <b>QGIS Contributor Meeting</b> will take place on <b>11-13 September</b> at the same venue. This event is for those who contribute to the development of QGIS. It's free to join but you are expected to make yourself useful on improving the QGIS application, documentation or website or do anything else QGIS will benefit from.
+
+
+### Local Committee
+
+The event is organized by the <a href="https://qgis.sk/">Slovak QGIS user group</a> with support from the <a href="https://qgis.org/">QGIS project</a>.
+
+<br>
+
+<div id="committee-member">
+    {% for teamMember in site.data.team-loc %}{% include team-member.html teamMember=teamMember %}{% endfor %}
+</div>
+
+
+
+<!-- ### The conference
 
 Organized by [OSGeo](https://www.osgeo.org/){:target="_blank"} and with more than 15 years of experience, this international annual gathering of location enthusiasts is the largest global gathering for geospatial software.
 
@@ -58,4 +90,4 @@ The Open Source Geospatial Foundation was founded to support and build the highe
 ### FLOSSK
 
 Free Libre Open Source Software Kosova (FLOSSK) is a non-governmental organization based in Kosovo established in 2009 in order to support, promote and develop free and open source software. FLOSSK also contributes to open and participatory knowledge, education in information technologies through open courseware, and open standards, culture and open society using free communication. Since its founding, FLOSSK has been involved in bringing the IT community closer to free and open source projects by organizing yearly conferences, workshops, meetups and actively participating in public policy development.
-FLOSSK is an OSGeo and OSMF local chapter in Kosovo.
+FLOSSK is an OSGeo and OSMF local chapter in Kosovo. -->

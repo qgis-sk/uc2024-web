@@ -39,7 +39,10 @@ permalink: "/blog/:title"
 navigationLinks:
  -
   permalink: "/"
-  text: "User Conference 2024"
+  text: "Home"
+ -
+  permalink: "/about"
+  text: "About"
 
 #   links:
 #     - {link: "/about", text: "About us"}
@@ -137,9 +140,8 @@ mapCenterCoordinates: "42.22097, 20.75224"
 
 # Venue Block
 venueBigImage: "stu-svf-01.jpg"
-venueSmallImage1: "svf-aula.png"
-venueSmallImage2: "svf-bat.png"
-venueSmallImage3: "Bratislava-Panorama2.jpg"
+venueSmallImage1: "Aula_1.jpg"
+venueSmallImage2: "BAT_3.jpg"
 venueTitle: "Faculty of Civil Engineering STU"
 venueText: The largest Slovak educational and research center in civil engineering and geodesy.
 
