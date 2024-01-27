@@ -10,20 +10,19 @@ exclude: ['/bin/', 'README.md', 'INSTALL.md', 'LICENSE.txt', 'CNAME', 'vendor']
 include: ['_pages']
 
 # Site Settings
-title: "QGIS User Conference 2024"
+title: "QGIS User Conference"
 # email: "test@example.com"
-description: "AAAAAA"  # TODO
+description: "9-10 September 2024"
 baseurl: ""
 url: "https://uc2024.qgis.sk"
 permalink: "/blog/:title"
 
-# TODO: Organizer Info
-# organizerName: "FLOSSK"
-# organizerAlternateName: "Free Libre Open Source Software Kosova"
-# organizerDescription: ""
-# organizerEmail: "info@flossk.org"
-# organizerLogo: "/img/organizers/flossk-logo.svg"
-# organizerLink: "https://flossk.org/"
+organizerName: "QGIS Slovensko"
+organizerAlternateName: ""
+organizerDescription: ""
+organizerEmail: "info@qgis.sk"
+organizerLogo: "/img/qgis-uc/qgis_sk_logo.png"
+organizerLink: "https://qgis.sk/"
 
 # Head
 # metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
@@ -130,19 +129,19 @@ rockstarSpeakersCount: 4
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "Innovation and Training Park (ITP)"
-eventLocationLink: "https://itp-prizren.com/"
-eventStreetAddress: "Ukë Bytyçi"
-eventAddressLocality: "Prizren"
+eventLocationName: "Faculty of Civil Engineering STU"
+eventLocationLink: "https://www.svf.stuba.sk/"
+eventStreetAddress: "Radlinskeho 11"
+eventAddressLocality: "Bratislava"
 eventAddressLocalityRegion: ""
-eventPostalCode: "20000"
-eventAddressCountry: "Kosovo"
-eventStartTime: "2023-06-26T10:00"
+eventPostalCode: "810 05"
+eventAddressCountry: "Slovakia"
+eventStartTime: "2024-09-09T10:00"
 eventDoorTime: "09:00"
-eventEndTime: "2023-07-01T20:00"
-eventPlaceCoordinates: "42.22097, 20.75224"
-mapCenterCoordinates: "42.22097, 20.75224"
-# mapMobileCenterCoordinates: "49.841620, 24.029411"
+eventEndTime: "2024-09-10T20:00"
+eventPlaceCoordinates: "48.152044, 17.115374"
+mapCenterCoordinates: "48.152044, 17.115374"
+# mapMobileCenterCoordinates: "48.152044, 17.115374"
 
 # Venue Block
 venueBigImage: "stu-svf-01.jpg"

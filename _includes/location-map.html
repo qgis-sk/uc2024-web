@@ -20,7 +20,7 @@
 
 
 const map = L.map('map').setView([48.152044, 17.115374], 6);
-L.marker([48.152044, 17.115374]).addTo(map).bindPopup('<div class="location-map-popup"> <div class="logo logo-dark"></div> <p>Faculty of Civil Engineering STU</p> <!--<ul> <li>Radlinskeho 11</li> <li>Bratislava</li> <li>Slovakia</li> </ul> <a href="https://www.openstreetmap.org/directions?from=&to=48.152044,17.115374" target="_blank"> Directions <svg class="icon-direction" viewBox="0 0 32 32"> <use xlink:href="/img/sprites/sprites.svg#icon-direction"></use> </svg> </a>--> </div> ');
+L.marker([48.152044, 17.115374]).addTo(map).bindPopup('<div class="location-map-popup" align="center"><p><b>QGIS User Conference</b></p> <p>9-10 September 2024<br/>Faculty of Civil Engineering STU<br/>Bratislava, Slovakia</p> </div> ').openPopup();
 map.scrollWheelZoom.disable();
 
 const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '&copy; ' + '<a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
