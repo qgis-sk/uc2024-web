@@ -43,6 +43,12 @@ navigationLinks:
  -
   permalink: "/about"
   text: "About"
+ -
+  permalink: "/#call-for-papers"
+  text: "Call For Papers"
+ -
+  permalink: "/#tickets"
+  text: "Tickets"
 
 #   links:
 #     - {link: "/about", text: "About us"}
