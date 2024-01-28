@@ -30,7 +30,7 @@ The program for this year has not yet been set, but you can find some examples o
 
 ### Contributor Meeting
 
-Right after the conference, <b>QGIS Contributor Meeting</b> will take place on <b>11-13 September</b> at the same venue. This event is for those who contribute to the development of QGIS. It's free to join but you are expected to make yourself useful on improving the QGIS application, documentation or website or do anything else QGIS will benefit from.
+Right after the conference, <b>QGIS Contributor Meeting</b> will take place on <b>11-13 September</b> at the same venue. This event is for those who contribute to the development of QGIS. It's free to join but you are expected to make yourself useful on improving the QGIS application, documentation or website or do anything else QGIS will benefit from. See <a href="https://github.com/qgis/QGIS/wiki/27th%E2%80%90Contributor%E2%80%90Meeting%E2%80%90in%E2%80%90Bratislava">Contributor Meeting details</a> on GitHub.
 
 
 ### Local Committee
