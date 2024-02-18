@@ -43,8 +43,11 @@ navigationLinks:
   permalink: "/about"
   text: "About"
  -
-  permalink: "/#call-for-papers"
+  permalink: "/call-for-papers"
   text: "Call For Papers"
+ -
+  permalink: "/sponsors"
+  text: "Sponsors"
  -
   permalink: "/#tickets"
   text: "Tickets"
