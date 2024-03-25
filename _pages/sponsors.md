@@ -7,10 +7,28 @@ image: sponsors.jpg
 ---
 
 
+<div class="container">
+    {% for partner in site.data.partners %}
+    {% if partner.group != "Organizers" %}
+    <h3>{{ partner.group }}</h3>
+    <ul class="list-inline">
+        {% for element in partner.elements %}
+        <li>
+            <a href="{{ element.link }}" target="_blank">
+                <img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}" height="{{ partner.height }}">
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% endfor %}
+</div>
 
 
 <div class="row">
     <div class="col-lg-9">
+
+<h3>Become a sponsor</h3>
 
 <p>
 
@@ -19,6 +37,8 @@ We are honoured to invite you to take this opportunity to be a financial partner
 </p>
 
 </div></div>
+
+
 
 ### Why become our partner?
 
