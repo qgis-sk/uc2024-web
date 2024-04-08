@@ -37,7 +37,7 @@ Submissions can cover any topics relevant to the QGIS community, for example:
 Deadline for submissions is the end of the day **March 31, 2024** (anywhere on Earth).
 
 <div align="">
-    <a href="https://talks.osgeo.org/qgis-uc2024/cfp" class="btn btn-primary waves-effect waves-button waves-light waves-float">Submit a talk or workshop</a>
+    <b>Call for papers is closed now. Big thanks to everyone who submitted their proposals!</b>
 </div>
 
 
