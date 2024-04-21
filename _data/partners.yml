@@ -3,6 +3,7 @@
   elements:
     - {name: "QGIS.sk", description: "Slovak QGIS User Group", link: "https://qgis.sk/", imageUrl: "qgis-sk-logo.svg"}
     - {name: "QGIS.org", description: "QGIS.ORG Association", link: "https://qgis.org/", imageUrl: "qgis-logo.svg"}
+    - {name: "STU SVF", description: "Slovak University of Technology, Faculty of Civil Engineering", link: "https://www.svf.stuba.sk/", imageUrl: "STU-SvF-anfh.png"}
 
 - group: "Gold Sponsors"
   height: 180
