@@ -10,8 +10,7 @@
     - {name: "ESA", description: "European Space Agency", link: "https://www.esa.int/", imageUrl: "esa-logo.png"}
     - {name: "Lutra Consulting", description: "Lutra Consulting", link: "https://www.lutraconsulting.co.uk/", imageUrl: "lutra-logo.png"}
 
-# - group: "Bronze Sponsors"
-#   height: 60
-#   elements:
-#     - {name: "ESA - European Space Agency", description: "", link: "/sponsors/sponsor_esa", imageUrl: "esa-logo.svg"}
-#     - {name: "Mergin Maps", description: "", link: "/sponsors/sponsor_merginmaps", imageUrl: "merginmaps-logo.svg"}
+- group: "Bronze Sponsors"
+  height: 40
+  elements:
+    - {name: "Rasterra", description: "Rasterra", link: "https://rasterra.nl/", imageUrl: "rasterra-logo.svg"}
