@@ -14,4 +14,4 @@
 - group: "Bronze Sponsors"
   height: 40
   elements:
-    - {name: "Rasterra", description: "Rasterra", link: "https://rasterra.nl/", imageUrl: "rasterra-logo.svg"}
+    - {name: "Rasterra", description: "Rasterra", link: "https://www.rasterra.nl/", imageUrl: "rasterra-logo.svg"}
