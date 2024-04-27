@@ -15,3 +15,4 @@
   height: 40
   elements:
     - {name: "Rasterra", description: "Rasterra", link: "https://www.rasterra.nl/", imageUrl: "rasterra-logo.svg"}
+    - {name: "Solargis", description: "Solargis", link: "https://www.solargis.com/", imageUrl: "solargis-logo.svg"}
