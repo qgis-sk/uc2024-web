@@ -49,6 +49,9 @@ navigationLinks:
   permalink: "/sponsors"
   text: "Sponsors"
  -
+  permalink: "/attending"
+  text: "Attending"
+ -
   permalink: "/#tickets"
   text: "Tickets"
 
