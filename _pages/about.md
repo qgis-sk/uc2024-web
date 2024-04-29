@@ -26,7 +26,7 @@ Presentations cover topics such as:
 
 Workshops provide hands-on experience with specific QGIS tools and techniques - both for beginners and advanced users.
 
-The program for this year has not yet been set, but you can find some examples of what to expect at the <a href="https://uc2023.qgis.nl/">QGIS User Conference 2023 website</a>.
+The program for this year will be available in May, but you can find some examples of what to expect at the <a href="https://uc2023.qgis.nl/">QGIS User Conference 2023 website</a>.
 
 ### Contributor Meeting
 
