@@ -173,6 +173,7 @@ venueText: The largest Slovak educational and research center in civil engineeri
 socialLinks:
  - {permalink: "/feed.xml", icon: "rss"}
  - {link: "https://www.linkedin.com/company/qgisuc24/", icon: "linkedin"}
+ - {link: "https://www.facebook.com/profile.php?id=61559011234491", icon: "facebook"}
 
 footerBlocks:
  -
