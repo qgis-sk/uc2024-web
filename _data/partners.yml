@@ -16,3 +16,4 @@
   elements:
     - {name: "Rasterra", description: "Rasterra", link: "https://www.rasterra.nl/", imageUrl: "rasterra-logo.svg"}
     - {name: "Solargis", description: "Solargis", link: "https://www.solargis.com/", imageUrl: "solargis-logo.svg"}
+    - {name: "Atapex", description: "Atapex", link: "https://www.atapex.sk/", imageUrl: "atapex-logo.svg"}
