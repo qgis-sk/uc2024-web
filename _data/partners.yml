@@ -16,4 +16,5 @@
   elements:
     - {name: "Rasterra", description: "Rasterra", link: "https://www.rasterra.nl/", imageUrl: "rasterra-logo.svg"}
     - {name: "Solargis", description: "Solargis", link: "https://www.solargis.com/", imageUrl: "solargis-logo.svg"}
-    - {name: "Atapex", description: "Atapex", link: "https://www.atapex.sk/", imageUrl: "atapex-logo.svg"}
+    - {name: "Atapex", description: "Atapex", link: "https://www.atapex.sk/", imageUrl: "atapex-logo.svg", height: 50}
+    - {name: "WhereGroup", description: "WhereGroup", link: "https://wheregroup.com/", imageUrl: "wheregroup-logo.svg", height: 65}
