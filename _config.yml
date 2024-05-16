@@ -119,8 +119,8 @@ eventDate: "9-10 September 2024"
 # typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
 # typeoutFallback: "Season"
 heroButtons:
-#  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
-#  - {permalink: "/register/", text: "Buy tickets"}
+  - {permalink: "/#tickets", text: "Buy tickets"}
+#  - {link: "/schedule", text: "Schedule"}
 
 # Statistic Block
 # statisticBlockImage: "statistic.jpg"

@@ -60,19 +60,21 @@ layout: compress
                         });
                     }
                 });
-                var rockstarSpeakers = [
+                /*var rockstarSpeakers = [
                     {% for speaker in site.data.speakers %}
                         {% if speaker.rockstar %}
                         {name: "{{ speaker.name }} {{ speaker.surname }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/speakers/' | append: speaker.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
                         {% endif %}
                     {% endfor %}
                 ];
-                rockstarSpeakers.sort(function() {return 0.5 - Math.random()});
+                rockstarSpeakers.sort(function() {return Math.random()});
                 if(rockstarSpeakers.length > 0) {
                     var animationDelay = 1500,
                         count = Math.min({{ site.rockstarSpeakersCount }}, rockstarSpeakers.length),
                         colWidth = 2;
                     for(i=0; i<6; i++) {
+                        if (i >= rockstarSpeakers.length)
+                          break;
                         var clearfix = '<div class="clearfix visible-xs"></div>';
                         if ((i)%2 != 0) {
                             clearfix = ""
@@ -80,7 +82,7 @@ layout: compress
                         $('#rockstar-speaker-title').after('<div class="col-md-'+ colWidth +' col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>' + clearfix);
                         animationDelay -= 500;
                     }
-                }
+                }*/
             });
         {% endif %}
     </script>
