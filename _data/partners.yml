@@ -10,6 +10,7 @@
   elements:
     - {name: "ESA", description: "European Space Agency", link: "https://www.esa.int/", imageUrl: "esa-logo.png"}
     - {name: "Lutra Consulting", description: "Lutra Consulting", link: "https://www.lutraconsulting.co.uk/", imageUrl: "lutra-logo.png"}
+    - {name: "QFieldCloud", description: "QFieldCloud", link: "https://qfield.cloud/", imageUrl: "qfieldcloud-logo.png", height: 60}
 
 - group: "Bronze Sponsors"
   height: 40
