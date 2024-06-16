@@ -43,8 +43,10 @@ navigationLinks:
   permalink: "/about"
   text: "About"
  -
-  permalink: "/schedule"
   text: "Schedule"
+  links:
+    - {link: "/schedule", text: "Overview"}
+    - {link: "/schedule/details", text: "Detailed Schedule"}
  -
   permalink: "/sponsors"
   text: "Sponsors"
