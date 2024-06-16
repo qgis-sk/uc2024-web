@@ -26,7 +26,7 @@ Presentations cover topics such as:
 
 Workshops provide hands-on experience with specific QGIS tools and techniques - both for beginners and advanced users.
 
-The <a href="/schedule">Schedule</a> page details the confirmed talks and workshops. The final program will be available in May/June.
+Check out the <a href="/schedule">Schedule Overview</a> page and the <a href="/schedule/details">Detailed Schedule</a> page with a full list of talks and workshops. The <a href="/attending">Attending</a> page contains a lot of useful hints for attendees.
 
 ### Contributor Meeting
 
