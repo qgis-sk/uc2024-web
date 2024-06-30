@@ -8,13 +8,4 @@
       margin: 40px 20px;
     }
   }
-  img {
-    transition: $base-transition;
-    &:not(.sponsorship) {
-      filter: grayscale(1);
-      &:hover {
-        filter: grayscale(0);
-      }
-    }
-  }
 }

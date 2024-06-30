@@ -15,7 +15,7 @@ image: sponsors.jpg
         {% for element in partner.elements %}
         <li>
             <a href="{{ element.link }}" target="_blank">
-                <img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}" height="{{ partner.height }}">
+                <img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}" height="{% if element.height %}{{ element.height }}{% else %}{{ partner.height }}{% endif %}" style="display:inline">
             </a>
         </li>
         {% endfor %}

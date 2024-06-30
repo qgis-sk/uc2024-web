@@ -19,3 +19,9 @@
     - {name: "Solargis", description: "Solargis", link: "https://www.solargis.com/", imageUrl: "solargis-logo.svg"}
     - {name: "Atapex", description: "Atapex", link: "https://www.atapex.sk/", imageUrl: "atapex-logo.svg", height: 50}
     - {name: "WhereGroup", description: "WhereGroup", link: "https://wheregroup.com/", imageUrl: "wheregroup-logo.svg", height: 65}
+
+- group: "Supporters"
+  height: 40
+  elements:
+    - {name: "Kajo Services", description: "Kajo Services", link: "https://www.kajoservices.com/", imageUrl: "kajo-services-logo.svg", height: 90}
+    - {name: "Geosupport", description: "Geosupport", link: "https://geosupport.sk/", imageUrl: "geosupport-logo.svg", height: 50}
