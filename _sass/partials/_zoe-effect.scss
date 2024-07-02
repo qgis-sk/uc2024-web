@@ -8,8 +8,8 @@ $figcaption-color: #3c4a50;
   &:hover {
     box-shadow: 0 1px 7px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.35);
     figure {
-      background-position: center left;
-      background-size: 150%;
+      //background-position: center left;
+      //background-size: 150%;
       .overlay {
         background: rgba(0, 0, 0, 0.3);
         @media (max-width: 767px) {
