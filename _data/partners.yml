@@ -6,11 +6,12 @@
     - {name: "STU SVF", description: "Slovak University of Technology, Faculty of Civil Engineering", link: "https://www.svf.stuba.sk/", imageUrl: "STU-SvF-anfh.png"}
 
 - group: "Gold Sponsors"
-  height: 180
+  height: 100
   elements:
-    - {name: "ESA", description: "European Space Agency", link: "https://www.esa.int/", imageUrl: "esa-logo.png"}
-    - {name: "Lutra Consulting", description: "Lutra Consulting", link: "https://www.lutraconsulting.co.uk/", imageUrl: "lutra-logo.png"}
-    - {name: "QFieldCloud", description: "QFieldCloud", link: "https://qfield.cloud/", imageUrl: "qfieldcloud-logo.png", height: 60}
+    - {name: "ESA", description: "European Space Agency", link: "https://www.esa.int/", imageUrl: "esa-logo.svg", height: 100}
+    - {name: "Lutra Consulting", description: "Lutra Consulting", link: "https://www.lutraconsulting.co.uk/", imageUrl: "lutra-logo.svg", height: 100}
+    - {name: "QFieldCloud", description: "QFieldCloud", link: "https://qfield.cloud/", imageUrl: "qfieldcloud-logo.svg", height: 80}
+    - {name: "Glint Solar", description: "Glint Solar", link: "https://www.glintsolar.com/", imageUrl: "glint-solar-logo.svg", height: 100}
 
 - group: "Bronze Sponsors"
   height: 40
