@@ -20,6 +20,7 @@
     - {name: "Solargis", description: "Solargis", link: "https://www.solargis.com/", imageUrl: "solargis-logo.svg"}
     - {name: "Atapex", description: "Atapex", link: "https://www.atapex.sk/", imageUrl: "atapex-logo.svg", height: 50}
     - {name: "WhereGroup", description: "WhereGroup", link: "https://wheregroup.com/", imageUrl: "wheregroup-logo.svg", height: 65}
+    - {name: "EnviroSolutions", description: "EnviroSolutions", link: "https://envirosolutions.pl/", imageUrl: "envirosolutions-logo.svg", height: 50}
 
 - group: "Supporters"
   height: 40
