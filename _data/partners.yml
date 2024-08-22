@@ -12,6 +12,7 @@
     - {name: "Lutra Consulting", description: "Lutra Consulting", link: "https://www.lutraconsulting.co.uk/", imageUrl: "lutra-logo.svg", height: 100}
     - {name: "QFieldCloud", description: "QFieldCloud", link: "https://qfield.cloud/", imageUrl: "qfieldcloud-logo.svg", height: 80}
     - {name: "Glint Solar", description: "Glint Solar", link: "https://www.glintsolar.com/", imageUrl: "glint-solar-logo.svg", height: 100}
+    - {name: "EarthDaily Agro", description: "EarthDaily Agro", link: "https://earthdailyagro.com/", imageUrl: "earthdaily-agro-logo.png", height: 90}
 
 - group: "Bronze Sponsors"
   height: 40
