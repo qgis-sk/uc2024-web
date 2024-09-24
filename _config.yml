@@ -121,7 +121,7 @@ eventDate: "9-10 September 2024"
 # typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
 # typeoutFallback: "Season"
 heroButtons:
-  - {permalink: "/#tickets", text: "Sold out!"}
+  - {permalink: "https://www.youtube.com/playlist?list=PLi6mvse6ZEOziPdfPuf1Bvc4xmx-aQDsv", text: "Watch recorded talks"}
 #  - {link: "/schedule", text: "Schedule"}
 
 # Statistic Block
